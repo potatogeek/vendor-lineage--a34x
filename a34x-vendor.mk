@@ -210,120 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a34x/proprietary/vendor/etc/hyper/config_chipset.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_chipset.json \
     vendor/samsung/a34x/proprietary/vendor/etc/hyper/config_hyper_permission.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_hyper_permission.json \
     vendor/samsung/a34x/proprietary/vendor/etc/hyper/config_vendor.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_vendor.json \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/aee_aedv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/aee_aedv64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv64.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service-lazy.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.clearkey.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.dumpstate@1.1-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.dumpstate@1.1-service-lazy.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.3-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.health@2.1-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service-samsung.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.security.keymint-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-multihal.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.usb@1.3-service.coral.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.3-service.coral.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/camera.unihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camera.unihal.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/cass.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cass.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/eara-io-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/eara-io-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/emservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/emservice.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/face-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/face-default-sec.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/fingerprint_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint_common.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/gbe.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gbe.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/hyper-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hyper-default-sec.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.a34x.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.a34x.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.bip_ap.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip_ap.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.conninfra.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.conninfra.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.fingerprint.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fingerprint.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.nfc.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.nfc.samsung.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.ramplus.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ramplus.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.vendor.onebinary.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.onebinary.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.vendor.sysfw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sysfw.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/lights-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-default-sec.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/loghidlvendorservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loghidlvendorservice.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/mtk_pkm_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_pkm_service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/mtklog.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtklog.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/networksetting.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/networksetting.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/pa_daemon_teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pa_daemon_teegris.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/samsung.software.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/samsung.software.media.c2@1.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sec.android.hardware.nfc@1.2-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/snap_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snap_utility.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/snaplite_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snaplite_utility.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/teegris_default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris_default.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/teegris_tui.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris_tui.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.authfw@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.authfw@1.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.fingerprint@3.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64_mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64_mtk.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.security.engmode@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.engmode@1.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.fkeymaster-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.security.hdcp.wifidisplay-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.hdcp.wifidisplay-default.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.security.skpm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.skpm@1.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.security.ssu-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.ssu-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprov-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.snap-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.snap-lazy.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.sysinput@1.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.sysinput@1.3-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.hdm@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.hdm@1.1-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.kg@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.kg@1.1-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.mpos_tui@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.mpos_tui@1.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.payment@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.payment@1.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.vibrator-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.vibrator-default.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor.samsung.rilchip.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rilchip.mediatek.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vendor_flash_recovery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor_flash_recovery.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/volte_rcs_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_rcs_ua.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/wifi_mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_mtk.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
-    vendor/samsung/a34x/proprietary/vendor/etc/init/wsm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wsm-service.rc \
     vendor/samsung/a34x/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/samsung/a34x/proprietary/vendor/etc/locale/plmn_delta_eng.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_eng.bin \
     vendor/samsung/a34x/proprietary/vendor/etc/locale/plmn_delta_zh-rCN.bin:$(TARGET_COPY_OUT_VENDOR)/etc/locale/plmn_delta_zh-rCN.bin \
@@ -699,15 +585,53 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a34x/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
 
 PRODUCT_PACKAGES += \
+    android.hardware.soundtrigger@2.0-impl \
+    libFrucSSMLib \
+    libHEVCdec_sa.ca7.android \
+    libMtkOmxAdpcmDec \
+    libMtkOmxGsmDec \
+    libMtkOmxMp3Dec \
+    libdiamondvoice \
+    libfgauge_gm30 \
+    libh264dec_customize \
+    libh264dec_sa.ca7 \
+    libh264dec_sd.ca7 \
+    libh264dec_se.ca7 \
+    libh264enc_sa.ca7 \
+    liblvsa \
+    liblvve \
+    libmp4enc_sa.ca7 \
+    libmp4enc_xa.ca7 \
+    libpredeflicker_native \
+    librcs_interface \
+    librcs_volte_core \
+    libstagefright_bufferqueue_helper_vendor \
+    libstagefright_omx_vendor \
+    libstagefright_softomx_plugin \
+    libvc1dec_sa.ca7 \
+    libvcodec_utility \
+    libvcodecdrv \
+    libvp8dec_sa.ca7 \
+    libvp8enc_sa.ca7 \
+    libvp9dec_sa.ca7 \
+    libvpud_vcodec \
+    libvpx \
+    libvt_custom \
+    vendor.mediatek.hardware.rcs@2.0 \
+    APUWareApusysServer \
+    APUWareUtilsServer \
+    APUWareXrpServer_v2 \
     AVCSecureVdecCA \
     HEVCSecureVdecCA \
     VP9SecureVdecCA \
     arm.graphics-V1-ndk_platform \
     audio_common-aidl-cpp \
     audioclient-types-aidl-cpp \
+    camera.device@1.0-impl \
     camera.device@3.2-impl \
     camera.device@3.3-impl \
     camera.device@3.4-impl \
+    camera.device@3.5-impl \
     libGLES_mali \
     libGLES_meow \
     libMEOW_data \
@@ -715,7 +639,9 @@ PRODUCT_PACKAGES += \
     libMEOW_qt \
     libMEOW_trace \
     framework-permission-aidl-cpp \
+    gc5035_mipi_raw_IdxMgr \
     gc5035_mipi_raw_tuning \
+    hi1339_mipi_raw_IdxMgr \
     hi1339_mipi_raw_tuning \
     android.hardware.audio.effect@2.0-impl \
     android.hardware.audio.effect@6.0-impl \
@@ -724,6 +650,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.gatekeeper@1.0-impl \
+    android.hardware.gnss@2.1-impl \
     android.hardware.memtrack@1.0-impl \
     android.hardware.renderscript@1.0-impl \
     android.hardware.soundtrigger@2.3-impl \
@@ -737,10 +664,13 @@ PRODUCT_PACKAGES += \
     audio.sec_primary.default \
     audio.usb.default \
     audio_policy.stub \
+    camera.mt6877 \
     camera.unihal.default \
     fingerprint.default \
     gatekeeper.mt6877 \
+    gps.default \
     gralloc.default \
+    hwcomposer.mt6877 \
     lights.mt6877 \
     local_time.default \
     memtrack.default \
@@ -749,18 +679,45 @@ PRODUCT_PACKAGES += \
     thermal_hal \
     vendor.mediatek.hardware.bluetooth.audio@2.1-impl \
     vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
+    vendor.mediatek.hardware.camera.ccap@1.0-impl \
+    vendor.mediatek.hardware.camera.isphal@1.0-impl \
+    vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
     vendor.mediatek.hardware.mms@1.6-impl \
     vendor.mediatek.hardware.mtkpower@1.2-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
     vendor.mediatek.hardware.pq@2.11-impl \
     vendor.samsung.hardware.audio@1.0-impl \
     vendor.samsung.hardware.bluetooth.audio@2.1-impl \
+    vendor.samsung.hardware.gnss@2.0-impl \
     vibrator.default \
     vulkan.mali \
+    imx258_mipi_raw_IdxMgr \
     imx258_mipi_raw_tuning \
+    imx582_mipi_raw_IdxMgr \
     imx582_mipi_raw_tuning \
+    lib3a.ae.core \
+    lib3a.ae \
+    lib3a.ae.stat \
     lib3a.af.assist.models \
+    lib3a.af.assist \
+    lib3a.af.assist.utils \
+    lib3a.af.core \
+    lib3a.af \
     lib3a.aishutter.models \
+    lib3a.alsflicker \
+    lib3a.awb.core \
+    lib3a.ccudrv \
+    lib3a.ccuif \
+    lib3a.custom.ae \
+    lib3a.dce \
+    lib3a.flash \
+    lib3a.flicker \
+    lib3a.gma \
+    lib3a.lce \
+    lib3a.log \
+    lib3a.n3d3a \
+    lib3a.sensors.color \
+    lib3a.sensors.flicker \
     libAVCSecureVencCA \
     libBeauty_v4.camera.samsung \
     libCamera_gc5035mipiraw_Capture_Preview \
@@ -1020,6 +977,8 @@ PRODUCT_PACKAGES += \
     libCamera_sr846dmipiraw_Video_SuperSteady \
     libCamera_sr846dmipiraw_supernight_capture \
     libCamera_sr846dmipiraw_supernight_preview \
+    libDLInterface.camera.samsung \
+    libDR \
     libDefaultFpsActor \
     libDeviceInfoProvider \
     libDualCamBokehCapture.camera.samsung \
@@ -1042,20 +1001,51 @@ PRODUCT_PACKAGES += \
     libOpenCL \
     libOpenCv.camera.samsung \
     libSEF.quram \
+    libSQLiteModule_VER_ALL \
     libSceneDetector_v1.camera.samsung \
+    libSecC2ComponentStore \
+    libSemDataProps \
+    libSemTelephonyProps \
+    libSonyIMX230PdafLibrary \
+    libSonyIMX230PdafLibraryWrapper \
+    libSonyIMX338PdafLibrary \
+    libSonyIMX338PdafLibraryWrapper \
+    libSonyIMX386PdafLibrary \
+    libSonyIMX386PdafLibraryWrapper \
+    libSonyIMX519PdafLibrary \
+    libSonyIMX519PdafLibraryWrapper \
     libTEECommon \
     lib_SamsungRec_07010 \
     lib_SoundAlive_3DPosition_ver202 \
     lib_SoundAlive_AlbumArt_ver105 \
     lib_SoundAlive_play_plus_ver500 \
     lib_SoundBooster_ver1100 \
+    lib_android_keymaster_keymint_utils \
+    lib_bsscore \
+    lib_eara_io_scndet \
+    lib_eara_io_service \
+    lib_eara_io_systracer \
+    lib_eara_io_timer \
+    lib_eara_io_util \
     lib_iir \
+    libaaa_ltm \
+    libaaa_ltmx \
     libaal_cust \
     libaal_key \
     libaal_mtk \
     libaalservice \
+    libacdk \
     libadpcmdec_mtk \
     libaedv \
+    libaiawb_moon \
+    libaiawb_moon_model \
+    libaiawb_p1ggm \
+    libaiawb_sun \
+    libaiawb_sun_model \
+    libaibc_tuning \
+    libaibc_tuning_p2 \
+    libaibc_tuning_p3 \
+    libainrcore \
     libaiselector \
     libalsautils \
     libapmonitor_vendor \
@@ -1090,6 +1080,7 @@ PRODUCT_PACKAGES += \
     libbauthtzcommon \
     libbeautyshot.arcsoft \
     libbessound_hd_mtk_vendor \
+    libbinderdebug \
     libblisrc32_vendor \
     libbluetooth_audio_session \
     libbluetooth_audio_session_mediatek \
@@ -1101,386 +1092,6 @@ PRODUCT_PACKAGES += \
     libbodyid.arcsoft \
     libbt-vendor \
     libbwc \
-    libcam.halsensor.hwintegration \
-    libcamera2ndk_vendor \
-    libcares_naptr \
-    libccci_util \
-    libcmdl \
-    libcmdl_ndk.mtk.vndk \
-    libcodec2_hidl@1.1 \
-    libcodec2_hidl@1.2 \
-    libcodec2_hidl_plugin \
-    libcodec2_mtk_c2store \
-    libcodec2_mtk_vdec \
-    libcodec2_mtk_venc \
-    libcodec2_simple_component \
-    libcodec2_soft_common \
-    libcodec2_soft_mtk_imaadpcmdec \
-    libcodec2_soft_mtk_mp3dec \
-    libcodec2_soft_mtk_msadpcmdec \
-    libcodec2_vpp_qt_plugin \
-    libcodec2_vpp_rs_plugin \
-    libcodecsolutionhelper_vendor \
-    libconnfem \
-    libcustom_nvram \
-    libcvsd_mtk \
-    libdecrypt \
-    libdpframework \
-    libdre \
-    libdualcam_refocus_image \
-    libdynamiclog \
-    libegis_fp_normal_sensor_test \
-    libengine_did \
-    libevent_finder.uniplugin@1.0 \
-    libexifa.camera.samsung \
-    libface_landmark.arcsoft \
-    libfidoauthnr_v2 \
-    libfile_op \
-    libflatbuffers-cpp \
-    libfloatingfeature \
-    libfocuspeaking \
-    libfocuspeaking.uniplugin@1.0 \
-    libformatConverter.unifunc \
-    libformatter \
-    libgamehdr \
-    libged \
-    libgf_in_system_lib \
-    libgpu_aux \
-    libgpud \
-    libgpudataproducer \
-    libgralloc_extra \
-    libgralloc_helper.unifunc \
-    libgralloc_metadata \
-    libgralloctypes_mtk \
-    libgrallocusage \
-    libgz_gp_client \
-    libgz_uree \
-    libhand_interaction.uniplugin@1.0 \
-    libhandgesture.arcsoft \
-    libhdrvideo \
-    libheifcapture \
-    libhevce_sb.ca7.android \
-    libhigh_dynamic_range_bokeh \
-    libhwscaler_camera.mtk \
-    libhypermotion.uniplugin@1.0 \
-    libhypermotion_core \
-    libicd_decoder \
-    libimage_enhancement.arcsoft \
-    libimagecodec_native.quram \
-    libimgproc_sw.unifunc@common \
-    libimgsensorca \
-    libion_mtk \
-    libion_ulit \
-    libipsec_ims_shr \
-    libispcameraca \
-    libjpeg-alpha-oal_vendor \
-    libjpeg-alpha_vendor \
-    libjpegencoder_sw.unifunc \
-    libladder \
-    liblivefocus_capture_engine \
-    liblivefocus_preview.uniplugin@1.0 \
-    liblivefocus_preview_engine \
-    libminiui \
-    libmml \
-    libmmprofile \
-    libmp3dec_mtk \
-    libmpbase \
-    libmsbc_mtk \
-    libmtcloader \
-    libmtk_drvb \
-    libmtkares \
-    libmtkcam_debugutils \
-    libmtkcam_grallocutils \
-    libmtkcam_stdutils \
-    libmtkcam_ulog \
-    libmtkcutils \
-    libmtkhardware_legacy \
-    libmtklimiter_vendor \
-    libmtknetutils \
-    libmtkperf_client_vendor \
-    libmtkproperty \
-    libmtkrillog \
-    libmtkshifter_vendor \
-    libmtkspparser \
-    libmtksysutils \
-    libmultiobject_tracker \
-    libneuroeara \
-    libneuron_graph_delegate.mtk \
-    libneuron_platform.vpu \
-    libneuropilot_hal_utils \
-    libnir_neon_driver \
-    libnir_neon_driver_ndk.mtk.vndk \
-    libnvram \
-    libnvram_sec \
-    libnwk_opt_halwrap_vendor \
-    libnxp_extamp_intf \
-    libnxpsmartpaparser \
-    liboemcrypto \
-    libpadm \
-    libperfctl_vendor \
-    libpkm \
-    libpower_timer \
-    libpowerhal \
-    libpowerhalwrap_vendor \
-    libpq_cust_base \
-    libpq_prot \
-    libpqframework \
-    libprofileparamstorage \
-    libqfp_sensortest \
-    librecordalive \
-    librgbwlightsensor \
-    librt_extamp_intf \
-    libruy \
-    libsavsac \
-    libsavscmn \
-    libsavsvc \
-    libscaler_sw.unifunc \
-    libscenedetector.uniplugin@1.0 \
-    libscltm \
-    libsecaudiocoreutils \
-    libsecaudioinfo \
-    libsecfr_engine \
-    libsecfr_model \
-    libsecnativefeature \
-    libsecril-client \
-    libsecure_storage \
-    libsegmentationeffect.uniplugin@1.0 \
-    libsegmentationeffect_capture.uniplugin@1.0 \
-    libsehbluetooth_audio_session \
-    libsemnativecarrierfeature \
-    libsensorndkbridge \
-    libsfplugin_ccodec_utils \
-    libshmemcompat \
-    libshmemutil \
-    libshotsuggestion \
-    libshotsuggestion_engines \
-    libsimba.media.samsung \
-    libsimlock \
-    libsimmelock \
-    libsnaace \
-    libsnamrnb \
-    libsnamrwb \
-    libsocial_image_enhancement.uniplugin@1.0 \
-    libspatializerparamstorage \
-    libspeakercalibration \
-    libspeech_enh_lib \
-    libspeechparser_vendor \
-    libssengine.uniplugin@1.0 \
-    libstagefright_bufferpool@2.0.1 \
-    libstagefright_foundation_vendor \
-    libstagefrighthw \
-    libstork_shared \
-    libsynaFpSensorTestNwd \
-    libsysenv \
-    libteecl \
-    libtflite_mtk \
-    libthha \
-    libtlcWidevineModularDrm \
-    libtranslator_mapi_v3.0 \
-    libtranslator_mdmi_v2.8.2 \
-    libtranslator_utils \
-    libudf \
-    liburee_meta_drmkeyinstall \
-    libuuid \
-    libvcodec_oal \
-    libvcodecdrv_header_stub \
-    libvdis.uniplugin@1.0 \
-    libvdis_core \
-    libvibrator \
-    libvideobeauty.arcsoft \
-    libvideobeauty.uniplugin@1.0 \
-    libvideobeauty_capture.uniplugin@1.0 \
-    libvpu \
-    libvpu5 \
-    libwpa_client \
-    libwvhidl \
-    libzoomroi.samsung \
-    libclearkeycasplugin \
-    libdrmclearkeyplugin \
-    libmockdrmcryptoplugin \
-    libwvdrmengine \
-    meta_wifi_data \
-    libaiselector \
-    libdpframework \
-    libmtk_drvb \
-    libneuron_platform.vpu \
-    libnir_neon_driver \
-    libpq_prot \
-    s5k4hayx_mipi_raw_tuning \
-    sensors.grip \
-    sensors.inputvirtual \
-    sensors.sensorhub \
-    shared-file-region-aidl-cpp \
-    libaudioeffectoffload \
-    libaudiopreprocessing_mtk \
-    libaudiosaplus_sec \
-    libdynproc \
-    libhapticgenerator \
-    libmyspace \
-    libsamsungSoundbooster_plus \
-    libswdap \
-    libswspatializer \
-    spatializer-aidl-cpp \
-    sr846d_mipi_raw_tuning \
-    unihal_android \
-    unihal_cutils \
-    unihal_entry \
-    unihal_filter_unit \
-    unihal_main \
-    unihal_scenario \
-    unihal_uniplugin@1.0 \
-    vendor.mediatek.hardware.apmonitor@2.0 \
-    vendor.mediatek.hardware.apuware.utils@2.0 \
-    vendor.mediatek.hardware.audio@6.1 \
-    vendor.mediatek.hardware.audio@7.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2 \
-    vendor.mediatek.hardware.mdmonitor@1.0 \
-    vendor.mediatek.hardware.mmagent@1.0 \
-    vendor.mediatek.hardware.mms@1.0 \
-    vendor.mediatek.hardware.mms@1.1 \
-    vendor.mediatek.hardware.mms@1.2 \
-    vendor.mediatek.hardware.mms@1.3 \
-    vendor.mediatek.hardware.mms@1.4 \
-    vendor.mediatek.hardware.mms@1.5 \
-    vendor.mediatek.hardware.mms@1.6 \
-    vendor.mediatek.hardware.mtkpower@1.0 \
-    vendor.mediatek.hardware.mtkpower@1.1 \
-    vendor.mediatek.hardware.mtkpower@1.2 \
-    vendor.mediatek.hardware.netdagent@1.0 \
-    vendor.mediatek.hardware.nvram@1.0 \
-    vendor.mediatek.hardware.nvram@1.1 \
-    vendor.mediatek.hardware.nwk_opt@1.0 \
-    vendor.mediatek.hardware.pq@2.0 \
-    vendor.mediatek.hardware.pq@2.1 \
-    vendor.mediatek.hardware.pq@2.10 \
-    vendor.mediatek.hardware.pq@2.11 \
-    vendor.mediatek.hardware.pq@2.2 \
-    vendor.mediatek.hardware.pq@2.3 \
-    vendor.mediatek.hardware.pq@2.4 \
-    vendor.mediatek.hardware.pq@2.5 \
-    vendor.mediatek.hardware.pq@2.6 \
-    vendor.mediatek.hardware.pq@2.7 \
-    vendor.mediatek.hardware.pq@2.8 \
-    vendor.mediatek.hardware.pq@2.9 \
-    vendor.samsung.hardware.audio@1.0 \
-    vendor.samsung.hardware.biometrics.face-V3-ndk_platform \
-    vendor.samsung.hardware.bluetooth.audio@2.0 \
-    vendor.samsung.hardware.bluetooth.audio@2.1 \
-    vendor.samsung.hardware.bluetooth@2.0 \
-    vendor.samsung.hardware.health@2.0 \
-    vendor.samsung.hardware.thermal@1.0 \
-    vendor.samsung.hardware.tlc.hdm@1.0 \
-    vendor.samsung.hardware.tlc.hdm@1.1-impl \
-    vendor.samsung.hardware.tlc.hdm@1.1 \
-    vendor.samsung.hardware.tlc.payment@1.0-impl \
-    vendor.samsung.hardware.tlc.payment@1.0 \
-    vintf-codecsolution-V2-ndk_platform \
-    android.hardware.soundtrigger@2.0-impl \
-    libFrucSSMLib \
-    libHEVCdec_sa.ca7.android \
-    libMtkOmxAdpcmDec \
-    libMtkOmxGsmDec \
-    libMtkOmxMp3Dec \
-    libdiamondvoice \
-    libfgauge_gm30 \
-    libh264dec_customize \
-    libh264dec_sa.ca7 \
-    libh264dec_sd.ca7 \
-    libh264dec_se.ca7 \
-    libh264enc_sa.ca7 \
-    liblvsa \
-    liblvve \
-    libmp4enc_sa.ca7 \
-    libmp4enc_xa.ca7 \
-    libpredeflicker_native \
-    librcs_interface \
-    librcs_volte_core \
-    libstagefright_bufferqueue_helper_vendor \
-    libstagefright_omx_vendor \
-    libstagefright_softomx_plugin \
-    libvc1dec_sa.ca7 \
-    libvcodec_utility \
-    libvcodecdrv \
-    libvp8dec_sa.ca7 \
-    libvp8enc_sa.ca7 \
-    libvp9dec_sa.ca7 \
-    libvpud_vcodec \
-    libvpx \
-    libvt_custom \
-    vendor.mediatek.hardware.rcs@2.0 \
-    APUWareApusysServer \
-    APUWareUtilsServer \
-    APUWareXrpServer_v2 \
-    camera.device@1.0-impl \
-    camera.device@3.5-impl \
-    gc5035_mipi_raw_IdxMgr \
-    hi1339_mipi_raw_IdxMgr \
-    android.hardware.gnss@2.1-impl \
-    camera.mt6877 \
-    gps.default \
-    hwcomposer.mt6877 \
-    vendor.mediatek.hardware.camera.ccap@1.0-impl \
-    vendor.mediatek.hardware.camera.isphal@1.0-impl \
-    vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
-    vendor.samsung.hardware.gnss@2.0-impl \
-    imx258_mipi_raw_IdxMgr \
-    imx582_mipi_raw_IdxMgr \
-    lib3a.ae.core \
-    lib3a.ae \
-    lib3a.ae.stat \
-    lib3a.af.assist \
-    lib3a.af.assist.utils \
-    lib3a.af.core \
-    lib3a.af \
-    lib3a.alsflicker \
-    lib3a.awb.core \
-    lib3a.ccudrv \
-    lib3a.ccuif \
-    lib3a.custom.ae \
-    lib3a.dce \
-    lib3a.flash \
-    lib3a.flicker \
-    lib3a.gma \
-    lib3a.lce \
-    lib3a.log \
-    lib3a.n3d3a \
-    lib3a.sensors.color \
-    lib3a.sensors.flicker \
-    libDLInterface.camera.samsung \
-    libDR \
-    libSQLiteModule_VER_ALL \
-    libSecC2ComponentStore \
-    libSemDataProps \
-    libSemTelephonyProps \
-    libSonyIMX230PdafLibrary \
-    libSonyIMX230PdafLibraryWrapper \
-    libSonyIMX338PdafLibrary \
-    libSonyIMX338PdafLibraryWrapper \
-    libSonyIMX386PdafLibrary \
-    libSonyIMX386PdafLibraryWrapper \
-    libSonyIMX519PdafLibrary \
-    libSonyIMX519PdafLibraryWrapper \
-    lib_android_keymaster_keymint_utils \
-    lib_bsscore \
-    lib_eara_io_scndet \
-    lib_eara_io_service \
-    lib_eara_io_systracer \
-    lib_eara_io_timer \
-    lib_eara_io_util \
-    libaaa_ltm \
-    libaaa_ltmx \
-    libacdk \
-    libaiawb_moon \
-    libaiawb_moon_model \
-    libaiawb_p1ggm \
-    libaiawb_sun \
-    libaiawb_sun_model \
-    libaibc_tuning \
-    libaibc_tuning_p2 \
-    libaibc_tuning_p3 \
-    libainrcore \
-    libbinderdebug \
     libcam.afhal \
     libcam.chdr \
     libcam.feature_utils \
@@ -1501,6 +1112,7 @@ PRODUCT_PACKAGES += \
     libcam.halisp.buf \
     libcam.halisp.common \
     libcam.halisp \
+    libcam.halsensor.hwintegration \
     libcam.halsensor \
     libcam.iopipe \
     libcam.isptuning \
@@ -1540,6 +1152,7 @@ PRODUCT_PACKAGES += \
     libcamera.customaf \
     libcamera.customawb \
     libcamera.customflk \
+    libcamera2ndk_vendor \
     libcameracustom.camera.3a \
     libcameracustom.camera.isp \
     libcameracustom.camera.sensors \
@@ -1548,6 +1161,16 @@ PRODUCT_PACKAGES += \
     libcameracustom.flashlight \
     libcameracustom.lens \
     libcameracustom \
+    libcares_naptr \
+    libccci_util \
+    libcmdl \
+    libcmdl_ndk.mtk.vndk \
+    libcodec2_hidl@1.1 \
+    libcodec2_hidl@1.2 \
+    libcodec2_hidl_plugin \
+    libcodec2_mtk_c2store \
+    libcodec2_mtk_vdec \
+    libcodec2_mtk_venc \
     libcodec2_sec_aacdec \
     libcodec2_sec_aacenc \
     libcodec2_sec_amrnbdec \
@@ -1558,24 +1181,45 @@ PRODUCT_PACKAGES += \
     libcodec2_sec_mp4vdec \
     libcodec2_sec_soft_common \
     libcodec2_sec_vc1dec \
+    libcodec2_simple_component \
     libcodec2_soft_ac4dec \
+    libcodec2_soft_common \
     libcodec2_soft_eac3dec \
+    libcodec2_soft_mtk_imaadpcmdec \
+    libcodec2_soft_mtk_mp3dec \
+    libcodec2_soft_mtk_msadpcmdec \
+    libcodec2_vpp_qt_plugin \
+    libcodec2_vpp_rs_plugin \
+    libcodecsolutionhelper_vendor \
     libcomposer_ext \
+    libconnfem \
     libcppbor_external \
     libcppcose_rkp \
+    libcustom_nvram \
+    libcvsd_mtk \
     libdeccfg \
+    libdecrypt \
     libdip_drv \
     libdip_imem \
     libdip_postproc \
     libdk_vnd_service_core \
+    libdpframework \
+    libdre \
     libdsms_vendor \
+    libdualcam_refocus_image \
     libdualcam_refocus_video \
+    libdynamiclog \
     libeffecthal.base \
+    libegis_fp_normal_sensor_test \
+    libengine_did \
     libengmode15 \
     libengmode2lite \
     libengmode_client \
     libengmode_server \
     libengmode_tlc \
+    libevent_finder.uniplugin@1.0 \
+    libexifa.camera.samsung \
+    libface_landmark.arcsoft \
     libfeature.face \
     libfeature.stereo.provider \
     libfeature.vsdof.hal \
@@ -1586,32 +1230,87 @@ PRODUCT_PACKAGES += \
     libfeature_rss \
     libfeatureiodrv_mem \
     libfft_vendor \
+    libfidoauthnr_v2 \
+    libfile_op \
+    libflatbuffers-cpp \
+    libfloatingfeature \
+    libfocuspeaking \
+    libfocuspeaking.uniplugin@1.0 \
     libforkexecwrap \
+    libformatConverter.unifunc \
+    libformatter \
+    libgamehdr \
+    libged \
+    libgf_in_system_lib \
+    libgpu_aux \
+    libgpud \
+    libgpudataproducer \
+    libgralloc_extra \
+    libgralloc_helper.unifunc \
+    libgralloc_metadata \
+    libgralloctypes_mtk \
+    libgrallocusage \
+    libgz_gp_client \
+    libgz_uree \
     libhal.wsm.samsung \
+    libhand_interaction.uniplugin@1.0 \
+    libhandgesture.arcsoft \
+    libhdrvideo \
     libheichal \
+    libheifcapture \
+    libhevce_sb.ca7.android \
+    libhigh_dynamic_range_bokeh \
     libhwc2onfbadapter \
     libhwm \
+    libhwscaler_camera.mtk \
     libhyper \
+    libhypermotion.uniplugin@1.0 \
+    libhypermotion_core \
     libhypervintf \
+    libicd_decoder \
     libifcutils_mtk \
+    libimage_enhancement.arcsoft \
     libimagebuffer_wrapper \
+    libimagecodec_native.quram \
     libimageio \
     libimageio_plat_drv \
     libimageio_plat_pipe \
+    libimgproc_sw.unifunc@common \
+    libimgsensorca \
+    libion_mtk \
+    libion_ulit \
+    libipsec_ims_shr \
+    libispcameraca \
+    libjpeg-alpha-oal_vendor \
+    libjpeg-alpha_vendor \
+    libjpegencoder_sw.unifunc \
     libkeymaster4_1support \
     libkeymint \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl \
+    libladder \
+    liblivefocus_capture_engine \
+    liblivefocus_preview.uniplugin@1.0 \
+    liblivefocus_preview_engine \
     liblpcnr \
     libm4u \
     libmcv_runtime.mtk \
     libmdla_ut \
     libmfllcore \
+    libminiui \
     libmmagent \
+    libmml \
+    libmmprofile \
     libmnl \
     libmnp_wrapper \
     libmnrt_wrapper \
+    libmp3dec_mtk \
+    libmpbase \
+    libmsbc_mtk \
     libmsnr \
+    libmtcloader \
+    libmtk_drvb \
+    libmtkares \
     libmtkcam.atmseventmgr \
     libmtkcam.eventcallback \
     libmtkcam.featurepipe.capture \
@@ -1625,6 +1324,7 @@ PRODUCT_PACKAGES += \
     libmtkcam_3rdparty \
     libmtkcam_calibration_convertor \
     libmtkcam_calibration_provider \
+    libmtkcam_debugutils \
     libmtkcam_device3_app \
     libmtkcam_device3_hal \
     libmtkcam_device3_hidl \
@@ -1638,6 +1338,7 @@ PRODUCT_PACKAGES += \
     libmtkcam_featurepolicy \
     libmtkcam_featureutils \
     libmtkcam_fwkutils \
+    libmtkcam_grallocutils \
     libmtkcam_hwnode \
     libmtkcam_hwutils \
     libmtkcam_imgbuf \
@@ -1668,59 +1369,203 @@ PRODUCT_PACKAGES += \
     libmtkcam_prerelease \
     libmtkcam_rsc \
     libmtkcam_scenariorecorder \
+    libmtkcam_stdutils \
     libmtkcam_streamutils \
     libmtkcam_synchelper \
     libmtkcam_sysutils \
     libmtkcam_tuning_utils \
+    libmtkcam_ulog \
     libmtkcam_vsync_util \
+    libmtkcutils \
+    libmtkhardware_legacy \
     libmtkisp_metadata \
+    libmtklimiter_vendor \
+    libmtknetutils \
+    libmtkperf_client_vendor \
+    libmtkproperty \
+    libmtkrillog \
+    libmtkshifter_vendor \
+    libmtkspparser \
+    libmtksysutils \
     libmtkutils \
+    libmultiobject_tracker \
+    libneuroeara \
     libneuron_adapter \
+    libneuron_graph_delegate.mtk \
     libneuron_platform \
+    libneuron_platform.vpu \
     libneuron_runtime.5 \
     libneuron_runtime \
     libneuron_wrapper \
+    libneuropilot_hal_utils \
+    libnir_neon_driver \
+    libnir_neon_driver_ndk.mtk.vndk \
+    libnvram \
+    libnvram_sec \
+    libnwk_opt_halwrap_vendor \
+    libnxp_extamp_intf \
+    libnxpsmartpaparser \
+    liboemcrypto \
+    libpadm \
+    libperfctl_vendor \
+    libpkm \
+    libpower_timer \
+    libpowerhal \
+    libpowerhalwrap_vendor \
+    libpq_cust_base \
+    libpq_prot \
+    libpqframework \
     libpqparamparser \
+    libprofileparamstorage \
+    libqfp_sensortest \
     libratconfig \
+    librecordalive \
+    librgbwlightsensor \
     libril_sem \
+    librt_extamp_intf \
+    libruy \
+    libsavsac \
+    libsavscmn \
+    libsavsvc \
+    libscaler_sw.unifunc \
+    libscenedetector.uniplugin@1.0 \
+    libscltm \
     libsec-ril \
     libsec2mtk_conversion \
     libsec_skpmHalTlc \
+    libsecaudiocoreutils \
+    libsecaudioinfo \
     libseccam_util \
+    libsecfr_engine \
+    libsecfr_model \
+    libsecnativefeature \
+    libsecril-client \
+    libsecure_storage \
+    libsegmentationeffect.uniplugin@1.0 \
+    libsegmentationeffect_capture.uniplugin@1.0 \
+    libsehbluetooth_audio_session \
+    libsemnativecarrierfeature \
+    libsensorndkbridge \
+    libsfplugin_ccodec_utils \
+    libshmemcompat \
+    libshmemutil \
+    libshotsuggestion \
+    libshotsuggestion_engines \
+    libsimba.media.samsung \
+    libsimlock \
+    libsimmelock \
     libskeymint10device \
     libskeymint_cli \
+    libsnaace \
+    libsnamrnb \
+    libsnamrwb \
     libsnap_compute \
     libsnap_compute_wrapper \
     libsnap_vndk \
     libsnaplite_native \
     libsnaplite_wrapper \
+    libsocial_image_enhancement.uniplugin@1.0 \
     libsoft_attestation_cert \
     libsomxcmn \
+    libspatializerparamstorage \
+    libspeakercalibration \
+    libspeech_enh_lib \
+    libspeechparser_vendor \
+    libssengine.uniplugin@1.0 \
+    libstagefright_bufferpool@2.0.1 \
+    libstagefright_foundation_vendor \
+    libstagefrighthw \
     libstereoinfoaccessor_vsdof \
     libstorage_otp \
+    libstork_shared \
+    libsynaFpSensorTestNwd \
+    libsysenv \
+    libteecl \
+    libtflite_mtk \
+    libthha \
+    libtlcWidevineModularDrm \
     libtlc_comm_iccc \
     libtlc_direct_comm_iccc \
+    libtranslator_mapi_v3.0 \
+    libtranslator_mdmi_v2.8.2 \
+    libtranslator_utils \
     libtvm_runtime \
     libtvm_wrapper \
+    libudf \
+    liburee_meta_drmkeyinstall \
+    libuuid \
+    libvcodec_oal \
+    libvcodecdrv_header_stub \
+    libvdis.uniplugin@1.0 \
+    libvdis_core \
+    libvibrator \
+    libvideobeauty.arcsoft \
+    libvideobeauty.uniplugin@1.0 \
+    libvideobeauty_capture.uniplugin@1.0 \
     libvkmanager_vendor \
     libvkservice \
+    libvpu \
+    libvpu5 \
     libwifi-hal \
+    libwpa_client \
     libwsmd_functions \
+    libwvhidl \
     libz_stable \
+    libzoomroi.samsung \
+    libclearkeycasplugin \
+    libdrmclearkeyplugin \
+    libmockdrmcryptoplugin \
+    libwvdrmengine \
+    meta_wifi_data \
+    libaiselector \
+    libdpframework \
     libmcv_runtime.mtk \
     libmdla_ut \
+    libmtk_drvb \
+    libneuron_platform.vpu \
     libneuron_runtime.5 \
     libneuron_runtime \
+    libnir_neon_driver \
+    libpq_prot \
     libmtkcam_streaminfo_plugin-p1stt \
     nfc_nci_sec \
     nwk_opt_imp \
     s5k4hayx_mipi_raw_IdxMgr \
+    s5k4hayx_mipi_raw_tuning \
+    sensors.grip \
+    sensors.inputvirtual \
+    sensors.sensorhub \
+    shared-file-region-aidl-cpp \
+    libaudioeffectoffload \
+    libaudiopreprocessing_mtk \
+    libaudiosaplus_sec \
+    libdynproc \
+    libhapticgenerator \
+    libmyspace \
+    libsamsungSoundbooster_plus \
+    libswdap \
+    libswspatializer \
+    spatializer-aidl-cpp \
     sr846d_mipi_raw_IdxMgr \
+    sr846d_mipi_raw_tuning \
+    unihal_android \
+    unihal_cutils \
+    unihal_entry \
+    unihal_filter_unit \
+    unihal_main \
+    unihal_scenario \
+    unihal_uniplugin@1.0 \
     vendor.mediatek.hardware.aee@1.0 \
     vendor.mediatek.hardware.aee@1.1 \
+    vendor.mediatek.hardware.apmonitor@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.1 \
+    vendor.mediatek.hardware.apuware.utils@2.0 \
     vendor.mediatek.hardware.apuware.xrp@2.0 \
+    vendor.mediatek.hardware.audio@6.1 \
+    vendor.mediatek.hardware.audio@7.1 \
+    vendor.mediatek.hardware.bluetooth.audio@2.1 \
+    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.camera.ccap@1.0 \
     vendor.mediatek.hardware.camera.isphal@1.0 \
     vendor.mediatek.hardware.camera.lomoeffect@1.0 \
@@ -1730,16 +1575,50 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.dmc@1.1 \
     vendor.mediatek.hardware.dmc@1.2 \
     vendor.mediatek.hardware.log@1.0 \
+    vendor.mediatek.hardware.mdmonitor@1.0 \
+    vendor.mediatek.hardware.mmagent@1.0 \
     vendor.mediatek.hardware.mmagent@1.1 \
+    vendor.mediatek.hardware.mms@1.0 \
+    vendor.mediatek.hardware.mms@1.1 \
+    vendor.mediatek.hardware.mms@1.2 \
+    vendor.mediatek.hardware.mms@1.3 \
+    vendor.mediatek.hardware.mms@1.4 \
+    vendor.mediatek.hardware.mms@1.5 \
+    vendor.mediatek.hardware.mms@1.6 \
+    vendor.mediatek.hardware.mtkpower@1.0 \
+    vendor.mediatek.hardware.mtkpower@1.1 \
+    vendor.mediatek.hardware.mtkpower@1.2 \
+    vendor.mediatek.hardware.netdagent@1.0 \
+    vendor.mediatek.hardware.nvram@1.0 \
+    vendor.mediatek.hardware.nvram@1.1 \
+    vendor.mediatek.hardware.nwk_opt@1.0 \
     vendor.mediatek.hardware.power@2.0 \
+    vendor.mediatek.hardware.pq@2.0 \
+    vendor.mediatek.hardware.pq@2.1 \
+    vendor.mediatek.hardware.pq@2.10 \
+    vendor.mediatek.hardware.pq@2.11 \
+    vendor.mediatek.hardware.pq@2.2 \
+    vendor.mediatek.hardware.pq@2.3 \
+    vendor.mediatek.hardware.pq@2.4 \
+    vendor.mediatek.hardware.pq@2.5 \
+    vendor.mediatek.hardware.pq@2.6 \
+    vendor.mediatek.hardware.pq@2.7 \
+    vendor.mediatek.hardware.pq@2.8 \
+    vendor.mediatek.hardware.pq@2.9 \
     vendor.samsung.frameworks.security.dsms-V1-ndk_platform \
+    vendor.samsung.hardware.audio@1.0 \
     vendor.samsung.hardware.authfw@1.0 \
+    vendor.samsung.hardware.biometrics.face-V3-ndk_platform \
     vendor.samsung.hardware.biometrics.fingerprint@3.0 \
+    vendor.samsung.hardware.bluetooth.audio@2.0 \
+    vendor.samsung.hardware.bluetooth.audio@2.1 \
+    vendor.samsung.hardware.bluetooth@2.0 \
     vendor.samsung.hardware.camera.device@5.0-impl \
     vendor.samsung.hardware.camera.device@5.0 \
     vendor.samsung.hardware.camera.provider@4.0-legacy \
     vendor.samsung.hardware.camera.provider@4.0 \
     vendor.samsung.hardware.gnss@2.0 \
+    vendor.samsung.hardware.health@2.0 \
     vendor.samsung.hardware.hyper-V2-ndk_platform \
     vendor.samsung.hardware.keymint-V1-ndk_platform \
     vendor.samsung.hardware.light-V1-ndk_platform \
@@ -1765,11 +1644,17 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.sysinput@1.1 \
     vendor.samsung.hardware.sysinput@1.2 \
     vendor.samsung.hardware.sysinput@1.3 \
+    vendor.samsung.hardware.thermal@1.0 \
+    vendor.samsung.hardware.tlc.hdm@1.0 \
+    vendor.samsung.hardware.tlc.hdm@1.1-impl \
+    vendor.samsung.hardware.tlc.hdm@1.1 \
     vendor.samsung.hardware.tlc.iccc@1.0-impl \
     vendor.samsung.hardware.tlc.iccc@1.0 \
     vendor.samsung.hardware.tlc.kg@1.0 \
     vendor.samsung.hardware.tlc.kg@1.1 \
     vendor.samsung.hardware.tlc.mpos_tui@1.0 \
+    vendor.samsung.hardware.tlc.payment@1.0-impl \
+    vendor.samsung.hardware.tlc.payment@1.0 \
     vendor.samsung.hardware.vibrator-V5-ndk_platform \
     vendor.samsung.hardware.wifi.hostapd@4.0 \
     vendor.samsung.hardware.wifi.supplicant@3.0 \
@@ -1778,6 +1663,7 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.wifi@2.1 \
     vendor.samsung.hardware.wifi@2.2 \
     vendor.samsung.hardware.wifi@2.3 \
+    vintf-codecsolution-V2-ndk_platform \
     com.samsung.android.authfw.ta.preload \
     com.samsung.android.biometrics.face.signed \
     com.samsung.android.biometrics.fingerprint.signed \
